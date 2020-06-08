@@ -78,7 +78,7 @@ body {
 
 .left-column {
 	max-width: 60%;
-    font-size: 0.8em;
+    font-size: 0.85em;
 }
 .right-column {
     padding-left: 5em;
@@ -132,7 +132,7 @@ body {
 }
 
 .small-text{
-	font-size: 0.6em;
+	font-size: 0.7em;
 }
 
 /* scroll thingy */

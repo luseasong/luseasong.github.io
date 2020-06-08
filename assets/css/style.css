@@ -70,6 +70,7 @@ body {
 .about {
 	position: relative;
 	display: flex;
+    padding-bottom: 5%
 }
 
 #landing {
@@ -78,6 +79,7 @@ body {
 
 .left-column {
 	max-width: 60%;
+    font-size: 0.85em;
 }
 .right-column {
     padding-left: 5em;

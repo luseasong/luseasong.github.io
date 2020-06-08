@@ -134,6 +134,12 @@ li {
     padding-bottom: 10%;
 }
 
+
+.design-decision img{
+    width: 100%;
+    height: auto;
+}
+
 .design-decision p {
     padding-left: 10%;
 }
@@ -141,6 +147,11 @@ li {
 .two-pic {
     display: flex;
     flex-direction: row;
+}
+
+.two-pic img{
+    width: 50%;
+    height: auto;
 }
 
 
@@ -210,6 +221,101 @@ li {
         font-weight: 700;
         padding-top: 1em;
         color: #E07261;
+    }
+
+    .two-pic {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .two-pic img{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1em;
+        background-color: #FFF9F5;
+        color: #163349;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 5%;
+    }
+
+    .case-container {
+        width: 80%;
+        padding-bottom: 0px;
+    }
+    .container-foot {
+        width: 80%;
+        padding-bottom: 5%;
+    }
+    .design-decision p {
+        padding-left: 5%;
+    }
+
+    #nav-bar {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3em; 
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+
+    #logo{
+        padding-bottom: 0.2em;
+        }
+
+    .menu-item {
+        color: #163349;
+        padding-left: 0px;
+        padding-right: 30px;
+        text-decoration: none;
+        position: relative;
+        font-size: 0.7em;
+    }
+
+    .h1{
+        font-size: 1.7em;
+        font-weight: 700;
+        padding-top: 1.5em;
+        color: #E07261;
+    }
+
+    .h2{
+        font-size: 1.44em;
+        font-weight: 700;
+        padding-top: 1.25em;
+        color: #E07261;
+    }
+
+    .h3{
+        font-size: 1.2em;
+        font-weight: 700;
+        padding-top: 1em;
+        color: #E07261;
+    }
+
+    .design-decision{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
+
+    .two-pic {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .two-pic img{
+        width: 100%;
+        height: auto;
     }
 
 }

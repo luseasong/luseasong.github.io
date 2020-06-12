@@ -88,6 +88,16 @@ body {
     padding-left: 5em;
 }
 
+.me {
+  visibility: hidden;
+  padding-top: 0.2em;
+}
+
+#hover-text:hover ~ .me {
+  visibility: visible;  
+}
+
+
 .link {
 	color: #E07261;
 	text-decoration: none;

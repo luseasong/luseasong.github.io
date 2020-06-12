@@ -1,6 +1,6 @@
 body {
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.25em;
+	font-size: 1.2em;
 	background-color: #FFF9F5;
 	color: #163349;
 	margin-right: auto;
@@ -92,26 +92,42 @@ body {
     border-width: 1px;
     padding: 20px 30px 20px 30px;
 }
-
-.h1{
-    font-size: 1.72em;
-    font-weight: 700;
-    padding-top: 2em;
-    color: #E07261;
+.space{
+    padding-bottom: 2em;
 }
 
-.h2{
-    font-size: 1.44em;
+.h1{
+    font-size: 1.7em;
     font-weight: 700;
     padding-top: 1.5em;
     color: #E07261;
+    padding-bottom: 0.5em;
+}
+
+.h2{
+    font-size: 1em;
+    font-weight: 700;
+    padding-top: 3em;
+    color: #163349;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
 }
 
 .h3{
-    font-size: 1.2em;
+    font-size: 0.83em;
     font-weight: 700;
-    padding-top: 1em;
+    padding-top: 2.5em;
+    color: #163349;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.callout{
+    font-size: 1.7em;
+    font-weight: 700;
+    padding-top: 0.5em;
     color: #E07261;
+    padding-bottom: 0.25em;
 }
 
 strong{
@@ -211,30 +227,33 @@ li {
         font-weight: 700;
         padding-top: 1.5em;
         color: #E07261;
+        padding-bottom: 0.5em;
     }
 
     .h2{
-        font-size: 1.44em;
+        font-size: 1em;
         font-weight: 700;
-        padding-top: 1.25em;
-        color: #E07261;
+        padding-top: 3em;
+        color: #163349;
+        text-transform: uppercase;
+        letter-spacing: 2px;
     }
 
     .h3{
-        font-size: 1.2em;
+        font-size: 0.8em;
+        font-weight: 600;
+        padding-top: 1.5em;
+        color: #163349;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+
+    .callout{
+        font-size: 2.1em;
         font-weight: 700;
-        padding-top: 1em;
+        padding-top: 0.3em;
         color: #E07261;
-    }
-
-    .two-pic {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .two-pic img{
-        width: 100%;
-        height: auto;
+        padding-bottom: 0.25em;
     }
 
 }
@@ -290,20 +309,33 @@ li {
         font-weight: 700;
         padding-top: 1.5em;
         color: #E07261;
+        padding-bottom: 0.5em;
     }
 
     .h2{
-        font-size: 1.44em;
+        font-size: 0.8em;
         font-weight: 700;
-        padding-top: 1.25em;
-        color: #E07261;
+        padding-top: 3em;
+        color: #163349;
+        text-transform: uppercase;
+        letter-spacing: 2px;
     }
 
     .h3{
-        font-size: 1.2em;
+        font-size: 0.8em;
+        font-weight: 600;
+        padding-top: 1.5em;
+        color: #163349;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+
+    .callout{
+        font-size: 1.7em;
         font-weight: 700;
-        padding-top: 1em;
+        padding-top: 0.5em;
         color: #E07261;
+        padding-bottom: 0.25em;
     }
 
     .design-decision{

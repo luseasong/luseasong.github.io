@@ -94,7 +94,8 @@ body {
 }
 
 #hover-text:hover ~ .me {
-  visibility: visible;  
+  visibility: visible; 
+
 }
 
 

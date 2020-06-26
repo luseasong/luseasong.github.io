@@ -21,6 +21,22 @@ body {
 
 }
 
+.container-foot {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 3em;
+}
+
+.h1{
+    font-size: 1.7em;
+    font-weight: 700;
+    color: #E07261;
+    padding-bottom: 0.5em;
+}
+
+
 #menu {
     display: flex;
     flex-direction: row;

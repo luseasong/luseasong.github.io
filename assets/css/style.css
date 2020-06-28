@@ -124,6 +124,7 @@ body {
 	text-decoration: underline;
 }
 
+
 /* Hide the tooltip content by default */
 
 [data-tooltip]:hover:after {

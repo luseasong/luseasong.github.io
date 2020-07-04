@@ -165,15 +165,16 @@ img {
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #E07261;
-    padding-top: 1em;
+    padding-top: 5em;
 }
 
 .single-p{
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 400;
     color: #163349;
     padding-top: 1em;
     padding-bottom: 9em;
+    width: 80%;
 
 }
 

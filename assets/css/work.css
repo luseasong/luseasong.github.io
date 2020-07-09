@@ -433,6 +433,11 @@ li {
         padding-bottom: 10%;
     }
 
+    .design-decision img{
+        width: 60%;
+        height: auto;
+    }
+
     .two-pic {
         display: flex;
         flex-direction: column;

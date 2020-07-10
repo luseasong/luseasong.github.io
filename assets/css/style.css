@@ -618,6 +618,10 @@ img {
         flex-direction: row;
     }
 
+    .proj-info {
+        width: 60%;
+    }
+
     #work-grid{
         width: 80%;
     }
@@ -692,6 +696,10 @@ img {
 
     .project {
         flex-direction: column;
+    }
+
+    .proj-info{
+        width: 85%;
     }
 
     #work-grid{

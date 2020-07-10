@@ -558,8 +558,7 @@ img {
     color: #E07261;
 }
 
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     .about {
         flex-direction: column;
         width: 80%;
@@ -572,6 +571,109 @@ img {
     .about-container {
         width: 80%;
         padding-bottom: 0px;
+    }
+
+    .big-text{
+        font-size: 1.2em;
+        font-weight: 600;
+        color: #163349;
+        padding-bottom: 2em;
+        width: 85%
+    }
+
+    .title {
+        font-size: 1.2em;
+        font-weight: 500;
+        color: #E07261;
+        text-decoration: none;
+
+    }
+
+    .proj-title{
+        font-size: 1.2em;
+        font-weight: 500;
+        color: #E07261;
+        text-decoration: none;
+    }
+
+    .text{
+        font-size: 1em;
+    }
+
+
+    .right-column {
+        padding-left: 0;
+        padding-bottom: 20%;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .left-column {
+        padding-bottom: 25%;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .project {
+        flex-direction: row;
+    }
+
+    #work-grid{
+        width: 80%;
+    }
+
+    #nav-bar {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3em; 
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+
+    #logo{
+        padding-bottom: 0.2em;
+        }
+
+    .menu-item {
+        color: #163349;
+        padding-left: 0px;
+        padding-right: 30px;
+        text-decoration: none;
+        position: relative;
+        font-size: 0.7em;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .about {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .container {
+        width: 80%;
+        padding-bottom: 0px;
+    }
+    .about-container {
+        width: 80%;
+        padding-bottom: 0px;
+    }
+
+    .big-text{
+        font-size: 1em;
+        font-weight: 600;
+        color: #163349;
+        padding-bottom: 2em;
+        width: 85%
+    }
+
+    .text{
+        font-size: 0.8em;
     }
 
 
@@ -600,7 +702,7 @@ img {
         position: relative;
         display: flex;
         flex-direction: column;
-        padding-top: 3em; 
+        padding-top: 1em; 
         width: 80%;
         margin: 0 auto;
         

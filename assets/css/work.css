@@ -94,7 +94,9 @@ body {
 .top{
     display: flex;
     flex-direction: row;
+    padding-bottom: 3em;
 }
+
 .title {
     padding-bottom: 1em;
     width: 40%;
@@ -107,7 +109,7 @@ body {
 }
 
 img {
-    padding: 20px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
 
 }
 
@@ -186,6 +188,7 @@ img {
 
 .right{
     width: 50%;
+    font-size: 0.8em;
 }
 
 
@@ -206,16 +209,21 @@ li {
     padding-bottom: 2%;
 }
 
+p {
+    font-size: 0.8em;
+}
+
 .design-decision{
     display: flex;
     flex-direction: row;
     padding-bottom: 10%;
+    padding-right: 10%;
 }
 
 
 .design-decision img{
     width: 40%;
-    padding-right: 10%;
+    padding-right: 15%;
     height: auto;
     max-width: 500px;
 }
@@ -323,6 +331,15 @@ li {
 
     .right{
         width: 50%;
+        font-size: 1em;
+    }
+
+    .design-decision{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 10%;
+        padding-right: 10%;
+        font-size: 1em;
     }
 
     .two-pic img{
@@ -421,7 +438,7 @@ li {
 
     .callout{
         font-size: 1.3em;
-        font-weight: 700;
+        font-weight: 600;
         color: #E07261;
         padding-bottom: 1.5em;
         width: 100%;
@@ -431,6 +448,7 @@ li {
         display: flex;
         flex-direction: column;
         padding-bottom: 10%;
+        font-size: 1.2em;
     }
 
     .design-decision img{

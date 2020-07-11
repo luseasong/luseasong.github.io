@@ -23,7 +23,7 @@ body {
 
 .container-foot {
     position: relative;
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     max-width: 800px;
     padding-top: 3em;
@@ -568,6 +568,14 @@ img {
         width: 80%;
         padding-bottom: 0px;
     }
+
+    .container-foot {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 800px;
+        padding-top: 3em;
+    }
     .about-container {
         width: 80%;
         padding-bottom: 0px;
@@ -663,6 +671,15 @@ img {
         width: 80%;
         padding-bottom: 0px;
     }
+
+    .container-foot {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 800px;
+        padding-top: 3em;
+    }
+
     .about-container {
         width: 80%;
         padding-bottom: 0px;

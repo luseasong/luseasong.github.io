@@ -241,6 +241,37 @@ p {
     padding-right: 2em;
 }
 
+[data-tooltip]:hover:after {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    max-width: 200px;
+    width: 100%;
+}
+
+[data-tooltip]:after {
+    content: attr(data-tooltip);
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    color: #FFF9F5;
+    background-color: #E07261;
+    font-size:.8em;
+    padding: 1px 5px 2px 5px;
+    bottom: 2em;
+    white-space: nowrap;
+    text-align: center;
+    transition: width 0.2s ease 0s, left 0.2s ease 0s;
+    width: 0;
+    left: 50%;
+}
+
+[data-tooltip] {
+    color: #E07261;
+    text-decoration: none;
+    position: relative;
+}
+
 
 
 @media only screen and (max-width: 1024px) {

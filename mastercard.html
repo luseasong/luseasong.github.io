@@ -9,9 +9,13 @@
 
 		<body>
 			<div id="back">
-				<a href="https://lucysong.me/index.html#work-grid" class="link">
-					<p>← Go back</p>
-				</a>
+				<p class="link" onclick="goBack()">← Go back</p>
+
+				<script>
+				function goBack() {
+				  window.history.back();
+				}
+				</script>
 			</div>
 
 			<div class="case-container">

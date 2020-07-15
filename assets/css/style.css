@@ -88,7 +88,6 @@ body {
 
 .about-container {
     position: relative;
-    display: flex;
     padding-top: 5%;
     width: 50%;
     margin: 0 auto;
@@ -98,7 +97,6 @@ body {
 .about {
 	position: relative;
 	display: flex;
-    padding-bottom: 5%
 }
 
 #landing {
@@ -533,17 +531,17 @@ body {
 }
 
 .proj-info {
-	width: 70%;
+	width: 100%;
 }
 
 .proj-img {
-	max-width: 35%;
-	padding-right: 10%;
+	max-width: 50%;
+	padding-right: 12%;
 	padding-top: 1%;
 }
 
 img {
-	max-width: 250px;
+	max-width: 300px;
 }
 
 #view-all {

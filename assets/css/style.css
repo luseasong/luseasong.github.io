@@ -137,10 +137,14 @@ body {
 
 .left-column {
 	max-width: 58%;
-    font-size: 0.85em;
 }
 .right-column {
     padding-left: 6em;
+    max-width: 58%;
+}
+
+.about-text {
+    font-size: 0.85em;
 }
 
 .me {
@@ -594,7 +598,7 @@ hr {
 
 @media only screen and (max-width: 1440px) {
     .about {
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 80%;
     }
 
@@ -721,7 +725,7 @@ hr {
 
 @media only screen and (max-width: 800px) {
     .about {
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 80%;
     }
 
@@ -788,7 +792,8 @@ hr {
     }
 
     .menu {
-        flex-direction: column;
+        text-align: center;
+        margin-right: 0;
     }
 
 
@@ -833,5 +838,14 @@ hr {
         font-size: 0.7em;
     }
 
+}
+
+
+@media only screen and (max-width: 700px) {
+    .menu {
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0;
+    }
 }
 

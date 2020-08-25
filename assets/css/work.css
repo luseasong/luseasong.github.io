@@ -229,6 +229,10 @@ p {
     max-width: 500px;
 }
 
+.design-decision p{
+    font-size: 1.12em;
+}
+
 .two-pic {
     display: flex;
     flex-direction: row;

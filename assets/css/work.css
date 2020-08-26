@@ -216,21 +216,25 @@ p {
 
 .design-decision{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     padding-bottom: 10%;
-    padding-right: 10%;
 }
 
 
 .design-decision img{
     width: 40%;
-    padding-right: 15%;
+    padding-left: 15%;
     height: auto;
     max-width: 500px;
 }
 
 .design-decision p{
-    font-size: 1.12em;
+    font-size: 1.3em;
+}
+
+.design-decision strong{
+    color: #E07261;
 }
 
 .two-pic {
@@ -301,6 +305,7 @@ p {
     }
     .design-decision p {
         padding-left: 5%;
+        font-size: 1.3em;
     }
 
     #nav-bar {

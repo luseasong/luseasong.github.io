@@ -163,6 +163,11 @@ body {
 	text-decoration: none;
 }
 
+.pink {
+    color: #E07261;
+    text-decoration: none;
+}
+
 
 .link:hover {
 	text-decoration: underline;

@@ -52,7 +52,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     color: #163349;
-    padding-bottom: 0.5em;
+    padding-bottom: 3%;
     max-width: 1000px;
 }
 
@@ -411,8 +411,7 @@ hr {
     #nav-bar {
         position: relative;
         display: flex;
-        flex-direction: row;
-        padding-top: 5em; 
+        flex-direction: row; 
         width: 60%;
         margin: 0 auto;
         
@@ -504,7 +503,6 @@ hr {
     #nav-bar {
         position: relative;
         display: flex;
-        padding-top: 3em; 
         width: 80%;
         margin: 0 auto;
         

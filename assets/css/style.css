@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  overflow: hidden;
 }
 
 body {
@@ -17,11 +16,11 @@ body {
     position: relative;
     display: flex;
     flex-direction: row;
-    padding-top: 3em;
+    top: 5%;
     width: 50%;
     margin: 0 auto;
-    padding-bottom: 2em;
-    max-width: 800px;
+    padding-bottom: 5rem;
+    max-width: 1000px;
     align-items: center;
     justify-content: space-between;
 }
@@ -31,9 +30,8 @@ body {
     position: relative;
     width: 50%;
     margin: 0 auto;
-    max-width: 800px;
-    padding-top: 10em;
     max-width: 1000px;
+    padding-top: 10em;
 }
 
 .h1{
@@ -55,7 +53,7 @@ body {
     font-weight: 400;
     color: #163349;
     padding-bottom: 0.5em;
-    max-width: 90%;
+    max-width: 1000px;
 }
 
 .bottom-text{
@@ -117,7 +115,7 @@ body {
 	padding-bottom: 10%;
 	width: 50%;
 	margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
 
 }
 
@@ -253,7 +251,7 @@ body {
 	margin-right: auto;
 	top: 8em;
 	width: 50%;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .item {
@@ -336,31 +334,6 @@ hr {
     max-width: 80%;
 }
 
-@media only screen and (max-width: 2000px) {
-
-    #nav-bar {
-        max-width: 80%; 
-    }
-
-    .container {
-        max-width: 80%;
-    }
-    .container-foot {
-        max-width: 80%;
-    }
-
-    .about-container {
-        max-width: 80%;
-    }
-
-    #work-grid{
-        max-width: 80%;
-    }
-
-    img {
-    max-width: 400px;
-    }
-}
 
 @media only screen and (max-width: 1440px) {
 
@@ -471,7 +444,8 @@ hr {
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
+
     .about {
         flex-direction: column-reverse;
         width: 80%;
@@ -518,7 +492,7 @@ hr {
     }
 
     .project {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .proj-info{
@@ -532,7 +506,7 @@ hr {
     #nav-bar {
         position: relative;
         display: flex;
-        padding-top: 1em; 
+        padding-top: 3em; 
         width: 80%;
         margin: 0 auto;
         
@@ -591,6 +565,10 @@ hr {
         margin-right: 0;
         font-size: 0.5em;
         padding-left: 1em;
+    }
+
+    .project {
+        flex-direction: column;
     }
 }
 

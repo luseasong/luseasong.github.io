@@ -207,6 +207,11 @@ body {
 	position: relative;
 }
 
+.heading{
+    font-size: 1em;
+    font-weight: 700;
+}
+
 .small-heading{
 	font-size: 0.6em;
 	font-weight: 700;
